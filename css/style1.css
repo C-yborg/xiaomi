@@ -1,0 +1,307 @@
+.container {
+    width: 1226px;
+    margin: auto;
+}
+/* 清除浮动 */
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.flo-left {
+    float: left;
+}
+.flo-right {
+    float: right;
+}
+
+.top-banner {
+    width: 100%;
+    height: 120px;
+    background: url('../images/1-top/topBanner.jpg') no-repeat center center;
+    cursor: pointer;
+}
+
+/* 横向导航 */
+.nav {
+    height: 40px;
+    background-color: #2b2121;
+}
+
+.nav .navContent {
+    height: 40px;
+    margin: 0 61px;
+}
+
+.navContent ul {
+    height: 40px;
+    line-height: 40px;
+}
+
+.navContent li {
+    display: inline-block;
+    /* line-height: 40px; */
+}
+.navContent ul a {
+    color: #b0b0b0;
+}
+.navContent ul a:hover {
+    color: #fff;
+}
+
+.navContent ul span {
+    color: #424242;
+    margin: 0 10px;
+}
+.login .shop-car {
+    padding-left: 10px;
+    color: #b0b0b0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #424242;
+    cursor: pointer;
+}
+
+.login .shop-car:hover {
+    color: #fff;
+}
+.navContent ul a,
+.login .shop-car {
+    transition: all 0.5s;
+}
+
+/* 头部结束 */
+
+/* log导航开始 */
+.logo-nav {
+    height: 100px;
+}
+
+.logo-nav .logo {
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.logo-nav ul {
+    line-height: 100px;
+    margin-left: 170px;
+}
+
+.logo-nav li {
+    display: inline-block;
+    height: 80px;
+    padding: 0 10px;
+}
+.logo-nav li:hover {
+    border-bottom: 2px solid #ff6702;
+}
+
+.logo-nav li a {
+    font-size: 16px;
+    color: #000;
+}
+
+.logo-nav .search {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo-nav .search input[type='search'] {
+    position: absolute;
+    top: 25px;
+    right: 49px;
+    width: 240px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+}
+.logo-nav .search input[type='search']:hover {
+    border-color: #b0b0b0;
+}
+
+.logo-nav .search input[type='submit'] {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo-nav .search input[type='submit']:hover {
+    color: #fff;
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+
+.hotwords {
+    position: absolute;
+    left: -230px;
+    z-index: 10;
+}
+
+.hotwords a {
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: #eee;
+    color: #757575;
+    transition: all 0.5s;
+}
+
+.hotwords a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+/* 轮播图开始 */
+.banner {
+    position: relative;
+    margin: auto;
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+}
+
+.banner .banner-pic {
+    width: 7356px;
+    height: 460px;
+    animation: move 30s linear infinite 0s normal;
+}
+
+.banner-pic li {
+    width: 1226px;
+    height: 460px;
+    float: left;
+}
+
+@keyframes move {
+    0% {
+        margin-left: 0;
+    }
+    19% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -1226px;
+    }
+    39% {
+        margin-left: -1226px;
+    }
+    40% {
+        margin-left: -2452px;
+    }
+    59% {
+        margin-left: -2452px;
+    }
+    60% {
+        margin-left: -3678px;
+    }
+    79% {
+        margin-left: -3678px;
+    }
+    80% {
+        margin-left: -4904px;
+    }
+    99% {
+        margin-left: -4904px;
+    }
+    100% {
+        margin-left: -6130px;
+    }
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 460px;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.banner .menu li {
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 30px;
+}
+
+.banner .menu li:hover {
+    background-color: #ff6700;
+}
+
+.banner .menu a {
+    color: #fff;
+}
+
+.banner .menu span {
+    position: absolute;
+    right: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner .arrow {
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 40px;
+}
+
+.banner .left-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 234px;
+}
+.banner .right-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    right: 0;
+}
+
+.banner .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+/* 轮播图点 */
+.banner .banner-dot {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.banner .banner-dot span {
+    display: inline-block;
+    margin-right: 10px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.5s;
+}
+
+.banner .banner-dot span:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 图片栏 */
+.suggest {
+    width: 1226px;
+    height: 170px;
+    margin: 14px auto 26px;
+}
