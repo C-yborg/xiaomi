@@ -451,6 +451,7 @@
 /* 主题内容开始 */
 .mainbody {
     width: 100%;
+    padding-bottom: 50px;
     padding-top: 60px;
     background-color: #f5f5f5;
 }
@@ -666,4 +667,124 @@
 }
 .hot-item .comment span {
     color: red;
+}
+
+/* 尾部 */
+footer {
+    background-color: #fafafa;
+}
+
+footer .aboutBG {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+footer .aboutBG .about {
+    width: 1226px;
+    margin: auto;
+}
+
+.aboutBG .about ul {
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.aboutBG .about li {
+    float: left;
+    margin-top: 27px;
+    width: 244px;
+    text-align: center;
+    font-size: 16px;
+    color: #616161;
+    border-right: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.aboutBG .about li:nth-child(5) {
+    border-right: none;
+}
+.aboutBG .about li:hover {
+    color: #ff6700;
+}
+
+.aboutBG .about li i {
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: -6px;
+}
+.aboutBG .survey {
+    width: 1226px;
+    margin: 40px auto 0;
+}
+.aboutBG .survey dl {
+    float: left;
+    width: 160px;
+}
+.survey dl dt {
+    margin-bottom: 20px;
+}
+.survey dl dd {
+    color: #757575;
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 10px;
+    cursor: pointer;
+}
+.survey dl dd:hover {
+    color: #ff6700;
+}
+
+.aboutBG .contact {
+    width: 200px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.aboutBG .contact h2 {
+    margin-bottom: 5px;
+    color: #ff6700;
+}
+.aboutBG .contact p {
+    font-size: 12px;
+    color: #616161;
+}
+.aboutBG .contact span {
+    display: inline-block;
+    margin-top: 30px;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.aboutBG .contact span:hover {
+    color: #fff;
+    background-color: #ff6700;
+}
+.aboutBG .contact i {
+    vertical-align: -2px;
+}
+.copy {
+    margin: 40px auto 0;
+    width: 1226px;
+}
+.copy .link {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #757575;
+}
+.copy .link p {
+    margin-top: 6px;
+    color: #b0b0b0;
+}
+.copy .verify img {
+    width: 85px;
+}
+
+.slogan {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
