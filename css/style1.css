@@ -624,6 +624,25 @@
     transform: scale(1.1);
 }
 
+.aside img,
+.list > li,
+.hot-item li,
+#two > div {
+    transition: all 0.5s;
+}
+
+.aside img:hover,
+.list > li:hover,
+.hot-item li:hover,
+#two > div:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.list > li#two:hover {
+    box-shadow: none;
+    transform: none;
+}
+
 /* 热评产品 */
 .hot-item {
     margin: auto;
